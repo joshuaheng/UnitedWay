@@ -1,0 +1,25 @@
+/* styling for content in help page */
+
+body{
+	margin:0;
+
+}
+
+.help-content{
+
+	margin: 0 auto;
+	padding-top: 57px;
+	text-align: left;
+	padding-left: 25.5px;	
+	padding-right: 25.5px;
+	line-height: 35px;
+	/*width: 89%;*/
+	height:auto;
+}
+
+.backarrow{
+
+	position:relative;
+	left:-10px;
+
+}

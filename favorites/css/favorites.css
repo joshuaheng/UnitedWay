@@ -1,0 +1,58 @@
+.list-item {
+	min-height: 60px;
+	width: 100%;
+	border-top: 2px solid #003366;
+	border-left: 2px solid #003366;
+	border-right: 2px solid #003366;
+}
+
+.last-item {
+
+	border-bottom: 2px solid #003366;
+}
+
+.item-text-box {
+	display: block;
+	float: left;
+	width: 70%;
+	padding: 8px;
+}
+
+.item-text-box a{
+	min-height: 60px;
+	color: white;
+	font-size: 18px;
+	overflow: hidden;
+	/*white-space: nowrap;*/
+
+}
+
+.delete-box {
+
+	display: block;
+	float: right;
+	position: relative;
+}
+
+
+/********************* Parity ************************/
+.even {
+	width:99.5%;
+	background-color: #9999FF;
+	height:auto;
+	overflow:auto;
+}
+.odd {
+	width:99.5%;
+	background-color: #00549b;
+	height:auto;
+	overflow:auto;
+}
+
+.delete {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	margin-right: 10px;
+	margin-top: 20%
+}
