@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta name="viewport" http-equiv="Content-Type" content="width=device-width, text/html; charset=utf-8,user-scalable=no, initial-scale=1, maximum-scale=1" />
+		<title>United Way: Log in</title>
+		<link href="../css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../css/default.css" rel="stylesheet" type="text/css" />
+		<link href="css/login.css" rel="stylesheet" type="text/css" />
+		<script src="../js/generator.js" type="text/javascript"></script>
+		<script src="js/login.js" type="text/javascript"></script>
+	</head>
+
+
+	<body>
+		<div class="wrapper">
+
+			<script>
+			if(localStorage.lang=="ENG"){
+				generateHeader("Welcome!", false, false);
+				generateMainText("<br><div id=\"mainText\"><p class='mini-head'>Welcome to the United Way of Champaign County Pre-K app!</p><p>Please log in below.</p></div>");
+			}
+				else{
+				generateHeader("Bienvenida!", false, false);
+				generateMainText("<br><div id=\"mainText\"><p class='mini-head'>Bienvenido a App Pre-K de United Way!</p><p>Por favor ingrese a continuaci&oacute;n.</p></div>");
+			}
+			</script>
+			<div id="content">
+				<div id='login-fields'>
+					<script>
+					if(localStorage.lang=="ENG"){
+						generateInputText("Email Address", "", "email", "email");
+						document.write("<br>");
+						generateInputText("Password", "", "password", "password");
+					}
+					else{
+						generateInputText("Email Address", "", "email", "email");
+						document.write("<br>");
+						generateInputText("Contrase&ntilde;a", "", "password", "password");
+					}
+
+					</script>
+					
+				</div>
+				<div id="result"></div>
+				
+		
+				<div id="option-links">
+					<script>
+					if(localStorage.lang=="ENG"){
+						generateButton("I'm a new user", "new-user", "bt-yellow", "registration()");
+						generateButton("Log in", "login", "bt-yellow", "verifyLogin()");
+					}
+					else{
+						generateButton("Soy un nuevo usuario", "new-user", "bt-yellow", "registration()");
+						generateButton("Iniciar la sesi&oacute;n", "login", "bt-yellow", "verifyLogin()");
+					}
+					</script>
+				</div>
+			</div>
+		</div>	
+		<!-- end of login-wrapper -->
+	</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta name="viewport" http-equiv="Content-Type" content="width=device-width, text/html; charset=utf-8,user-scalable=no, initial-scale=1, maximum-scale=1" />
+        <title>Detailed Progress</title>
+		<link rel="stylesheet" type="text/css" href="../css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/progress_bar.css" />
+		
+		<!-- Include Le Javscript here-->
+		<script src="../js/jquery-1.10.1.min.js"></script>
+		<script src="../js/generator.js"></script>
+		<script type="text/javascript" src = "js/childProgress.js"></script>
+    </head>
+    <!-- Call updateProgress from the start-->
+
+	<body>
+		<!-- HEADER-->
+		<script type="text/javascript">
+			generateHeader("Checklists", true, true); // Header
+		</script>
+		<div class="wrapper">
+			<!-- HEALTH BUTTON-->
+			<script type="text/javascript">
+				generateButton("Health & Well Being", "health-bt", "bt-health", "clickHealth()"); // Health Button
+			</script>
+			<div class = "pb-ctn">
+				<div class="detail" value='0' max='100'>
+					<div id="1"class="progressbar"></div>
+				</div>
+				<a id="percentage1" class="percentage"></a>
+			</div>
+			
+			<!-- LANGUAGE BUTTON-->
+			<script type="text/javascript">
+				generateButton("Language & General", "lang-bt", "bt-lang", "clickLang()"); // Health Button
+			</script>
+			<div class = "pb-ctn">
+				<div  class="detail" value='0' max='100'>
+					<div id="2" class="progressbar"></div>
+				</div>
+				<a id="percentage2" class="percentage"></a>
+			</div>
+			
+			<!-- SOCIAL BUTTON-->
+			<script type="text/javascript">
+				generateButton("Social & Emotional Prep.", "social-bt", "bt-social", "clickSocial()"); // Health Button
+			</script>
+			<div class = "pb-ctn">
+				<div class="detail" value='0' max='100'>
+					<div id="3" class="progressbar"></div>
+				</div>
+				<a id="percentage3" class="percentage"></a>
+			</div>
+
+			<!-- OTHER BUTTON-->
+			<script type="text/javascript">
+				generateButton("Other", "other-bt", "bt-other", "clickOther()"); // Health Button
+			</script>
+			<div class = "pb-ctn">
+				<div class="detail" value='0' max='100'>
+					<div id="4" class="progressbar"></div>
+				</div>
+				<a id="percentage4" class="percentage"></a>
+			</div>			
+			
+			<!-- ARROWS -->
+			<div id="child-wrapper">
+				<div id="left-arrow"><img src="../images/left-arrow.png" width="50" height="50"  /></div>
+				<div id="right-arrow"><img src="../images/right-arrow.png" width="50" height="50" /></div>
+				<div id="child"></div>
+			</div>
+		</div>
+		<!-- end of checklist-main-wrapper -->
+    </body>
+
+</html>

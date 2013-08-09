@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta name="viewport" http-equiv="Content-Type" content="width=device-width, text/html; charset=utf-8,user-scalable=no, initial-scale=1, maximum-scale=1" />
+        <title>Category Progress</title>
+		<!-- SCRIPTS GO HERE -->
+		<link rel="stylesheet" type="text/css" href="../css/default.css" />
+		<link href="css/checklists-sub.css" rel="stylesheet" type="text/css" />
+		<!-- Include Le Javscript here-->
+		<script type="text/javascript" src="../js/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="../js/generator.js"></script>
+		<script type="text/javascript" src="js/tasks.js"></script>
+		<script type="text/javascript" src="js/checklist.js"></script>
+    </head>
+    <!-- Call updateProgress from the start-->
+	<body>
+		<!-- HEADER-->
+		<script type="text/javascript">
+			generateHeader("Checklists", true, true); // Header
+		</script>
+		<div class="wrapper">
+			<script type="text/javascript">
+				var category = "";
+				var storedCat;
+				if(localStorage.remember==1){
+					storedCat = localStorage.cat.toString();
+				}
+				else{
+					storedCat = sessionStorage.cat.toString();
+				}
+				switch(storedCat) {
+					case "1":
+						category = "Health &\nWell Being";
+						break;
+					case "2":
+						category = "Language &\nGeneral Knowledge";
+						break;
+					case "3":
+						category = "Social &\nEmotional Preparation";
+						break;
+					case "4":
+						category = "Other Areas &\nDevelopment";
+						break;
+				}
+				generateSubTitle(category);
+			</script>
+		</div>
+		<div id="health-well-being-wrapper">
+			<ul id="checklist"></ul>
+			<div id="left-right">
+				<a id="left" href="childProgress.html"><img src="../images/left-arrow.png"></a>
+			</div>
+		</div>
+		
+		
+    </body>
+</html>

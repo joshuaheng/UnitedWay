@@ -1,0 +1,62 @@
+var healthTasks = [ "Eats a balanced diet",
+					"Gets plenty of rest",
+					"Receives regular medical and dental care",
+					"Has had all the necessary immunizations",
+					"Runs, jumps, plays outdoors and does other activities that provide exercise and help develop large muscles",
+					"Works puzzles, scribbles, colors, paints and does other activities that help develop small muscles"
+					];
+					
+var languageTasks = [ "Has many opportunities to talk and listen",
+					  "Is read to every day ",
+					  "Has access to books and other reading materials ",
+					  "Is learning about print and books ",
+					  "Has television viewing monitored by an adult ",
+					  "Is encouraged to ask questions ",
+					  "Is encouraged to solve problems ",
+					  "Has opportunities to notice similarities and differences ",
+					  "Is encouraged to sort and classify things ",
+					  "Is learning to write his/her name and address ",
+					  "Is learning to count and plays counting games",
+					  "Is learning to identify and name shapes and colors",
+					  "Has opportunities to draw and to be creative",
+					  "Has opportunities to listen to and make music and to dance",
+					  "Has opportunities to get first-hand experiences and to do things in the world - to see and touch objects, hear new sounds, smell and taste foods and watch things move"
+					  ];
+					
+var socialTasks = [ "Is learning to explore and try new things",
+					"Is learning to work well alone and to do many tasks independently",
+					"Has many opportunities to be with other children and is learning to cooperate with them",
+					"Is curious and motivated to learn",
+					"Is learning to finish tasks",
+					"Is learning to use self-control",
+					"Can follow simple instructions",
+					"Helps with family chores",
+					"Is learning to use words to identify and express emotions"
+					];
+					
+var otherTasks = [  "Listen to stories without interrupting",
+					"Recognize rhyming sounds",
+					"Pay attention for short periods of time to adult-directed tasks",
+					"Understand that actions have both causes and effects",
+					"Show understanding of general times of day",
+					"Cut with scissors",
+					"Trace basic shapes",
+					"Begin to share with others",
+					"Start to follow rules",
+					"Be able to recognize authority",
+					"Manage bathroom needs",
+					"Button shirts, pants, and coats, and zip up zippers",
+					"Begin to control oneself",
+					"Separate from parents without being upset",
+					"Speak understandably",
+					"Talk in complete sentences of five to six words",
+					"Look at pictures and then tell stories",
+					"Identify rhyming words",
+					"Identify the beginning sound of some words",
+					"Identify some alphabet letters",
+					'Recognize some common sight words like "stop"',
+					"Sort similar objects by color, size, and shape",
+					"Recognize groups of one, two, three, four, and five objects",
+					"Count to ten",
+					"Bounce a ball"
+					];

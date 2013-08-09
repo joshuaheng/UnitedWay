@@ -1,0 +1,103 @@
+.mainText {
+
+	line-height: 20px;
+	color: white;
+	position: relative;
+	width: 90%;
+}
+
+#top-text {
+	padding-top: 35px;
+	margin-bottom: 15px;
+}
+
+.wrapper {
+	position: absolute;
+	left: 0px;
+	padding-left: 25px;
+	width: 95%;
+}
+
+
+
+p {
+	padding-bottom: 10px;
+}
+
+/* The input fields **********************************/
+#personal-info {
+	display: block;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+
+#firstname {
+	display: inline-block;
+
+}
+
+#firstname-box {
+	
+
+}
+
+#lastname-box {
+	position: relative;
+
+
+}
+
+/***************************/
+#login-info{
+
+display: block;
+position: relative;
+
+}
+
+
+#login-info-buttons {
+	
+}
+
+#email {
+width: 110%;
+}
+
+#password {
+width: 110%;
+
+}
+
+#confirm {
+width: 110%;
+
+}
+
+/*******************************************************/
+
+
+#verify-registration {
+display:block;
+top: 60px;
+width: 114px;
+
+}
+
+
+form{
+	height:100%;
+}
+
+
+
+.fail {
+	margin-top: 10px;
+}
+
+#result{
+	position:relative;
+
+	bottom:30px;
+}

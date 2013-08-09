@@ -1,0 +1,69 @@
+#mainText {
+	position: relative;
+	padding-left:25px;
+	padding-top: 57px;
+	padding-right: 35px;
+	line-height: 1px;
+	margin-bottom: 50px !important;
+
+}
+label{
+	color: white;
+	font-family: arial;
+	font-size: 15px;
+}
+#rememberme{
+	padding-left:25px;
+	padding-top:10px;
+}
+p {
+	font: 16px Arial, Helvetica, sans-serif;
+	color: #FFF;
+	
+}
+
+#fail {
+	margin-top: 10px;
+}
+
+#result{
+	position:absolute;
+	padding-left:25px;
+}
+
+#loader {
+	position:absolute;
+	display: block;
+	padding: 0;
+	margin-top: 10px;
+	margin-left: 100px;
+}
+
+#login-fields {
+	display: block;
+	position: relative;
+	padding-left:25px;
+}
+
+#new-user {
+	margin-right: 5px;
+
+}
+
+
+#login {
+	margin-left: 5px;
+
+}
+
+#option-links {
+position: relative;
+top: 65px;
+padding-left:25px;
+}
+
+@media only screen and (max-device-width: 380px){
+#login {
+	margin-top:5px;
+}
+}
